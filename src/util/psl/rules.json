@@ -18,7 +18,8 @@
             "gov": 1,
             "mil": 1,
             "net": 1,
-            "org": 1
+            "org": 1,
+            "sch": 1
         },
         "l": 1
     },
@@ -243,7 +244,6 @@
     "apartments": 1,
     "app": {
         "c": {
-            "adaptable": 1,
             "aiven": 1,
             "base44": 1,
             "beget": {
@@ -251,7 +251,6 @@
                     "*": 1
                 }
             },
-            "bookonline": 1,
             "botdash": 1,
             "brave": {
                 "c": {
@@ -263,9 +262,11 @@
                 },
                 "l": 1
             },
+            "claude": 1,
             "clerk": 1,
             "clerkstage": 1,
             "cloudflare": 1,
+            "codepen": 1,
             "convex": 1,
             "corespeed": 1,
             "csb": {
@@ -274,7 +275,6 @@
                 },
                 "l": 1
             },
-            "deta": 1,
             "developer": {
                 "c": {
                     "*": 1
@@ -296,7 +296,13 @@
             },
             "expo": {
                 "c": {
-                    "staging": 1
+                    "on": 1,
+                    "staging": {
+                        "c": {
+                            "on": 1
+                        },
+                        "l": 1
+                    }
                 },
                 "l": 1
             },
@@ -333,6 +339,8 @@
             "on-fleek": 1,
             "ondigitalocean": 1,
             "onhercules": 1,
+            "pplx": 1,
+            "puter": 1,
             "railway": {
                 "c": {
                     "up": 1
@@ -539,8 +547,8 @@
                 },
                 "l": 1
             },
-            "biz": 1,
             "co": 1,
+            "dnshome": 1,
             "funkfeuer": {
                 "c": {
                     "wien": 1
@@ -564,7 +572,6 @@
             "futurehosting": 1,
             "futuremailing": 1,
             "gv": 1,
-            "info": 1,
             "lima-city": 1,
             "my": 1,
             "myspreadshop": 1,
@@ -628,11 +635,6 @@
                     "wa": 1
                 },
                 "l": 1
-            },
-            "hrsn": {
-                "c": {
-                    "vps": 1
-                }
             },
             "id": 1,
             "net": 1,
@@ -1281,7 +1283,12 @@
     "banamex": 1,
     "band": 1,
     "bank": 1,
-    "bar": 1,
+    "bar": {
+        "c": {
+            "resolve": 1
+        },
+        "l": 1
+    },
     "barcelona": 1,
     "barclaycard": 1,
     "barclays": 1,
@@ -1351,6 +1358,7 @@
                     "ezproxy": 1
                 }
             },
+            "my": 1,
             "myspreadshop": 1,
             "transurl": {
                 "c": {
@@ -1364,7 +1372,12 @@
     "beats": 1,
     "beauty": 1,
     "beer": 1,
-    "berlin": 1,
+    "berlin": {
+        "c": {
+            "ddns": 1
+        },
+        "l": 1
+    },
     "best": 1,
     "bestbuy": 1,
     "bet": 1,
@@ -1991,6 +2004,7 @@
                     "instances": 1
                 }
             },
+            "sryze": 1,
             "twmail": 1,
             "uk": 1,
             "us": 1
@@ -2147,6 +2161,7 @@
                 "l": 1
             },
             "diadem": 1,
+            "dnshome": 1,
             "elementor": 1,
             "emergent": 1,
             "encoway": {
@@ -2154,6 +2169,7 @@
                     "eu": 1
                 }
             },
+            "hstgr": 1,
             "jelastic": {
                 "c": {
                     "vip": 1
@@ -2176,6 +2192,27 @@
             },
             "jote": 1,
             "jotelulu": 1,
+            "k2": {
+                "c": {
+                    "elastic": 1,
+                    "ru-msk": {
+                        "c": {
+                            "lb": 1,
+                            "s3": 1,
+                            "website": 1
+                        }
+                    },
+                    "ru-spb": {
+                        "c": {
+                            "lb": 1,
+                            "s3": 1,
+                            "website": 1
+                        }
+                    },
+                    "s3": 1,
+                    "website": 1
+                }
+            },
             "keliweb": {
                 "c": {
                     "cs": 1
@@ -2197,6 +2234,7 @@
                     "*": 1
                 }
             },
+            "online-server": 1,
             "onstackit": {
                 "c": {
                     "runs": 1
@@ -2511,6 +2549,7 @@
             "jl": 1,
             "js": 1,
             "jx": 1,
+            "khsj": 1,
             "ln": 1,
             "mil": 1,
             "mo": 1,
@@ -2648,7 +2687,11 @@
                 "l": 1
             },
             "africa": 1,
-            "aivencloud": 1,
+            "aivencloud": {
+                "c": {
+                    "*": 1
+                }
+            },
             "aliases121": 1,
             "alibabacloudcs": 1,
             "alpha-myqnapcloud": 1,
@@ -4131,6 +4174,21 @@
                 },
                 "l": 1
             },
+            "atlassian-3p": {
+                "c": {
+                    "*": 1
+                }
+            },
+            "atlassian-3p-us-gov-mod": {
+                "c": {
+                    "*": 1
+                }
+            },
+            "atlassian-isolated-3p": {
+                "c": {
+                    "*": 1
+                }
+            },
             "atmeta": 1,
             "auiusercontent": {
                 "c": {
@@ -4166,6 +4224,12 @@
             "cechire": 1,
             "cf-ipfs": 1,
             "ciscofreak": 1,
+            "claudeusercontent": {
+                "c": {
+                    "frame": 1
+                },
+                "l": 1
+            },
             "clever-cloud": {
                 "c": {
                     "services": {
@@ -4200,6 +4264,11 @@
             "codespot": 1,
             "cprapid": 1,
             "cpserver": 1,
+            "cursorusercontent": {
+                "c": {
+                    "*": 1
+                }
+            },
             "customer-oci": {
                 "c": {
                     "*": 1,
@@ -4235,6 +4304,7 @@
             "ddnsguru": 1,
             "ddnsking": 1,
             "de": 1,
+            "deployagent": 1,
             "deus-canvas": 1,
             "dev-myqnapcloud": 1,
             "devinapps": {
@@ -4560,8 +4630,12 @@
                     "paas": 1
                 }
             },
-            "mazeplay": 1,
             "messwithdns": 1,
+            "metaaiusercontent": {
+                "c": {
+                    "*": 1
+                }
+            },
             "meteorapp": {
                 "c": {
                     "eu": 1
@@ -4630,7 +4704,6 @@
             "on-aptible": 1,
             "on-forge": 1,
             "on-vapor": 1,
-            "onfabrica": 1,
             "onrender": 1,
             "onthewifi": 1,
             "ooguy": 1,
@@ -4649,7 +4722,6 @@
             "outsystemscloud": 1,
             "ownprovider": 1,
             "pagespeedmobilizer": 1,
-            "pagexl": 1,
             "paywhirl": {
                 "c": {
                     "*": 1
@@ -4707,7 +4779,6 @@
                 }
             },
             "reservd": 1,
-            "reserve-online": 1,
             "rhcloud": 1,
             "rice-labs": 1,
             "routingthecloud": 1,
@@ -4767,11 +4838,6 @@
             "smushcdn": 1,
             "space-to-rent": 1,
             "stackhero-network": 1,
-            "stdlib": {
-                "c": {
-                    "api": 1
-                }
-            },
             "strapiapp": {
                 "c": {
                     "media": 1
@@ -4809,6 +4875,7 @@
             "us": 1,
             "us1-plenit": 1,
             "vipsinaapp": 1,
+            "vivenushop": 1,
             "vultrobjects": {
                 "c": {
                     "*": 1
@@ -4936,13 +5003,15 @@
     "cv": {
         "c": {
             "com": 1,
+            "dev": 1,
             "edu": 1,
             "id": 1,
             "int": 1,
             "net": 1,
             "nome": 1,
             "org": 1,
-            "publ": 1
+            "publ": 1,
+            "store": 1
         },
         "l": 1
     },
@@ -5070,6 +5139,7 @@
                 },
                 "l": 1
             },
+            "ddnssec": 1,
             "diskussionsbereich": 1,
             "dnshome": 1,
             "dnsupdater": 1,
@@ -5077,6 +5147,7 @@
             "dyn-ip24": 1,
             "dynamisches-dns": 1,
             "dyndns1": 1,
+            "dyndnssec": 1,
             "firewall-gateway": 1,
             "frusky": {
                 "c": {
@@ -5086,12 +5157,14 @@
             "fuettertdasnetz": 1,
             "git-repos": 1,
             "goip": 1,
+            "heimdns": 1,
             "home-webserver": {
                 "c": {
                     "dyn": 1
                 },
                 "l": 1
             },
+            "home64": 1,
             "hs-heilbronn": {
                 "c": {
                     "it": {
@@ -5108,6 +5181,7 @@
             "in-dsl": 1,
             "in-vpn": 1,
             "internet-dns": 1,
+            "ipv64": 1,
             "iservschule": 1,
             "isteingeek": 1,
             "istmein": 1,
@@ -5145,6 +5219,7 @@
                 }
             },
             "square7": 1,
+            "srvdns": 1,
             "svn-repos": 1,
             "taifun-dns": 1,
             "test-iserv": 1,
@@ -5196,6 +5271,7 @@
                 },
                 "l": 1
             },
+            "codepen": 1,
             "crm": {
                 "c": {
                     "aa": {
@@ -5307,7 +5383,6 @@
             },
             "deno": 1,
             "deno-staging": 1,
-            "deta": 1,
             "erp": {
                 "c": {
                     "web": 1
@@ -5376,6 +5451,7 @@
             "ngrok-free": 1,
             "pages": 1,
             "panel": 1,
+            "payload": 1,
             "platter-app": 1,
             "r2": 1,
             "replit": {
@@ -5420,7 +5496,18 @@
                     "*": 1
                 }
             },
+            "storage": {
+                "c": {
+                    "t3": 1
+                }
+            },
+            "storageapi": {
+                "c": {
+                    "t3": 1
+                }
+            },
             "vercel": 1,
+            "vivenushop": 1,
             "webhare": {
                 "c": {
                     "*": 1
@@ -5434,17 +5521,7 @@
     "dhl": 1,
     "diamonds": 1,
     "diet": 1,
-    "digital": {
-        "c": {
-            "cloudapps": {
-                "c": {
-                    "london": 1
-                },
-                "l": 1
-            }
-        },
-        "l": 1
-    },
+    "digital": 1,
     "direct": {
         "c": {
             "libp2p": 1
@@ -5644,11 +5721,6 @@
     },
     "email": {
         "c": {
-            "crisp": {
-                "c": {
-                    "on": 1
-                }
-            },
             "intouch": 1,
             "tawk": {
                 "c": {
@@ -5736,6 +5808,7 @@
             "cloudns": 1,
             "deuxfleurs": 1,
             "directwp": 1,
+            "dnshome": 1,
             "dogado": {
                 "c": {
                     "jelastic": 1
@@ -5784,14 +5857,14 @@
     "fairwinds": 1,
     "faith": 1,
     "family": 1,
-    "fan": 1,
-    "fans": 1,
-    "farm": {
+    "fan": {
         "c": {
-            "storj": 1
+            "mkm": 1
         },
         "l": 1
     },
+    "fans": 1,
+    "farm": 1,
     "farmers": 1,
     "fashion": 1,
     "fast": 1,
@@ -5937,7 +6010,15 @@
     "frontier": 1,
     "ftr": 1,
     "fujitsu": 1,
-    "fun": 1,
+    "fun": {
+        "c": {
+            "ms": 1,
+            "vicp": 1,
+            "yicp": 1,
+            "zicp": 1
+        },
+        "l": 1
+    },
     "fund": 1,
     "furniture": 1,
     "futbol": 1,
@@ -5981,12 +6062,16 @@
     "ge": {
         "c": {
             "com": 1,
+            "cyb": 1,
             "edu": 1,
             "gov": 1,
+            "llc": 1,
             "net": 1,
+            "online": 1,
             "org": 1,
             "pvt": 1,
-            "school": 1
+            "school": 1,
+            "tnx": 1
         },
         "l": 1
     },
@@ -6379,6 +6464,7 @@
     "id": {
         "c": {
             "ac": 1,
+            "ai": 1,
             "biz": 1,
             "co": 1,
             "desa": 1,
@@ -6454,7 +6540,9 @@
             "5g": 1,
             "6g": 1,
             "ac": 1,
+            "aero": 1,
             "ai": 1,
+            "alumni": 1,
             "am": 1,
             "bank": 1,
             "barsy": 1,
@@ -6492,9 +6580,11 @@
             "post": 1,
             "pro": 1,
             "res": 1,
+            "school": 1,
             "supabase": 1,
             "travel": 1,
             "tv": 1,
+            "ub": 1,
             "uk": 1,
             "up": 1,
             "us": 1,
@@ -6571,11 +6661,6 @@
                     "sekd1": 1
                 }
             },
-            "bigv": {
-                "c": {
-                    "uk0": 1
-                }
-            },
             "bitbucket": 1,
             "bluebite": 1,
             "boxfuse": 1,
@@ -6625,7 +6710,6 @@
             "hasura-app": 1,
             "hostyhosting": 1,
             "hypernode": 1,
-            "hzc": 1,
             "icp0": {
                 "c": {
                     "raw": {
@@ -6685,11 +6769,6 @@
                 }
             },
             "nom": 1,
-            "on-acorn": {
-                "c": {
-                    "*": 1
-                }
-            },
             "on-k3s": {
                 "c": {
                     "*": 1
@@ -6702,7 +6781,6 @@
             },
             "org": 1,
             "pantheonsite": 1,
-            "protonet": 1,
             "pstmn": {
                 "c": {
                     "mock": 1
@@ -6843,7 +6921,6 @@
             "aoste": 1,
             "ap": 1,
             "aq": 1,
-            "aquila": 1,
             "ar": 1,
             "arezzo": 1,
             "ascoli-piceno": 1,
@@ -6923,6 +7000,7 @@
             "cz": 1,
             "dell-ogliastra": 1,
             "dellogliastra": 1,
+            "dnshome": 1,
             "edu": 1,
             "emilia-romagna": 1,
             "emiliaromagna": 1,
@@ -7115,6 +7193,9 @@
             "sp": 1,
             "sr": 1,
             "ss": 1,
+            "su": 1,
+            "sud-sardegna": 1,
+            "sudsardegna": 1,
             "suedtirol": 1,
             "sv": 1,
             "syncloud": 1,
@@ -7160,7 +7241,6 @@
             "trentinos-tirol": 1,
             "trentinostirol": 1,
             "trentinosud-tirol": 1,
-            "trentinosudtirol": 1,
             "trentinosued-tirol": 1,
             "trentinosuedtirol": 1,
             "trentinsud-tirol": 1,
@@ -7184,7 +7264,6 @@
             "val-d-aosta": 1,
             "val-daosta": 1,
             "vald-aosta": 1,
-            "valdaosta": 1,
             "valle-aosta": 1,
             "valle-d-aosta": 1,
             "valle-daosta": 1,
@@ -7206,6 +7285,7 @@
             "venezia": 1,
             "venice": 1,
             "verbania": 1,
+            "verbano-cusio-ossola": 1,
             "vercelli": 1,
             "verona": 1,
             "vi": 1,
@@ -9752,6 +9832,7 @@
     "lincoln": 1,
     "link": {
         "c": {
+            "canva": 1,
             "cyon": 1,
             "dweb": {
                 "c": {
@@ -9962,6 +10043,12 @@
             "filegear": 1,
             "filegear-sg": 1,
             "gov": 1,
+            "grok": 1,
+            "hooc": {
+                "c": {
+                    "seprox": 1
+                }
+            },
             "hopto": 1,
             "i234": 1,
             "its": 1,
@@ -10379,11 +10466,6 @@
             },
             "cloudycluster": 1,
             "community-pro": 1,
-            "cryptonomic": {
-                "c": {
-                    "*": 1
-                }
-            },
             "ctfcloud": 1,
             "dattolocal": 1,
             "ddns": 1,
@@ -10466,6 +10548,11 @@
             "homeip": 1,
             "homelinux": 1,
             "homeunix": 1,
+            "hrsn": {
+                "c": {
+                    "vps": 1
+                }
+            },
             "hu": 1,
             "icp": {
                 "c": {
@@ -10478,6 +10565,7 @@
             "in-vpn": 1,
             "iobb": 1,
             "ipifony": 1,
+            "ipv64": 1,
             "is-a-chef": 1,
             "is-a-geek": 1,
             "isa-geek": 1,
@@ -10840,7 +10928,7 @@
             "askoy": 1,
             "askvoll": 1,
             "asnes": 1,
-            "audnedaln": 1,
+            "audnedal": 1,
             "aukra": 1,
             "aure": 1,
             "aurland": 1,
@@ -10954,7 +11042,6 @@
             "fosnes": 1,
             "frana": 1,
             "fredrikstad": 1,
-            "frei": 1,
             "frogn": 1,
             "froland": 1,
             "frosta": 1,
@@ -10971,6 +11058,7 @@
             "gaular": 1,
             "gausdal": 1,
             "giehtavuoatna": 1,
+            "gielda": 1,
             "gildeskal": 1,
             "giske": 1,
             "gjemnes": 1,
@@ -11277,6 +11365,7 @@
             "rana": 1,
             "randaberg": 1,
             "rauma": 1,
+            "re": 1,
             "rendalen": 1,
             "rennebu": 1,
             "rennesoy": 1,
@@ -11391,6 +11480,7 @@
             "suldal": 1,
             "sund": 1,
             "sunndal": 1,
+            "suohkan": 1,
             "surnadal": 1,
             "svalbard": {
                 "c": {
@@ -11413,6 +11503,7 @@
             "tingvoll": 1,
             "tinn": 1,
             "tjeldsund": 1,
+            "tjielte": 1,
             "tjome": 1,
             "tm": {
                 "c": {
@@ -11445,8 +11536,10 @@
             "tysfjord": 1,
             "tysnes": 1,
             "tysvar": 1,
+            "uenorge": 1,
             "ullensaker": 1,
             "ullensvang": 1,
+            "ulstein": 1,
             "ulvik": 1,
             "unjarga": 1,
             "utsira": 1,
@@ -11536,6 +11629,7 @@
             "xn--gjvik-wua": 1,
             "xn--gls-elac": 1,
             "xn--h-2fa": 1,
+            "xn--hamary-fya": 1,
             "xn--hbmer-xqa": 1,
             "xn--hcesuolo-7ya35b": 1,
             "xn--hgebostad-g3a": 1,
@@ -11549,6 +11643,7 @@
             "xn--indery-fya": 1,
             "xn--jlster-bya": 1,
             "xn--jrpeland-54a": 1,
+            "xn--karlsy-fya": 1,
             "xn--karmy-yua": 1,
             "xn--kfjord-iua": 1,
             "xn--klbu-woa": 1,
@@ -11680,7 +11775,13 @@
     },
     "nokia": 1,
     "norton": 1,
-    "now": 1,
+    "now": {
+        "c": {
+            "dyn": 1,
+            "here": 1
+        },
+        "l": 1
+    },
     "nowruz": 1,
     "nowtv": 1,
     "np": {
@@ -11775,8 +11876,10 @@
     "online": {
         "c": {
             "barsy": 1,
+            "book": 1,
             "eero": 1,
             "eero-stage": 1,
+            "heimdns": 1,
             "leapcell": 1,
             "websitebuilder": 1
         },
@@ -11924,6 +12027,7 @@
             "freeddns": 1,
             "freedesktop": 1,
             "from-me": 1,
+            "fspages": 1,
             "game-host": 1,
             "gotdns": 1,
             "hatenadiary": 1,
@@ -11961,7 +12065,6 @@
             "jpn": 1,
             "js": 1,
             "kicks-ass": 1,
-            "mayfirst": 1,
             "misconfused": 1,
             "mlbfan": 1,
             "my-firewall": 1,
@@ -12902,6 +13005,7 @@
                 "l": 1
             },
             "me": 1,
+            "mygov": 1,
             "org": 1
         },
         "l": 1
@@ -13037,7 +13141,12 @@
     },
     "shopping": 1,
     "shouji": 1,
-    "show": 1,
+    "show": {
+        "c": {
+            "ms": 1
+        },
+        "l": 1
+    },
     "si": {
         "c": {
             "f5": 1,
@@ -13059,6 +13168,7 @@
                     "my": 1
                 }
             },
+            "chatgpt": 1,
             "cloudera": {
                 "c": {
                     "*": 1
@@ -13086,12 +13196,22 @@
             "novecore": 1,
             "omniwe": 1,
             "opensocial": 1,
+            "piebox": 1,
             "platformsh": {
                 "c": {
                     "*": 1
                 }
             },
+            "playcode": 1,
             "preview": 1,
+            "puter": 1,
+            "scw": {
+                "c": {
+                    "ams": 1,
+                    "waw": 1
+                },
+                "l": 1
+            },
             "sol": 1,
             "sourcecraft": 1,
             "square": 1,
@@ -13169,6 +13289,7 @@
     "space": {
         "c": {
             "app-ionos": 1,
+            "deployagent": 1,
             "heiyu": 1,
             "hf": {
                 "c": {
@@ -13179,6 +13300,7 @@
             "myfast": 1,
             "project": 1,
             "uber": 1,
+            "vibehost": 1,
             "xs4all": 1
         },
         "l": 1
@@ -13430,7 +13552,6 @@
     "tirol": 1,
     "tj": {
         "c": {
-            "ac": 1,
             "biz": 1,
             "co": 1,
             "com": 1,
@@ -13779,12 +13900,6 @@
                     "adimo": 1,
                     "barsy": 1,
                     "barsyonline": 1,
-                    "bytemark": {
-                        "c": {
-                            "dh": 1,
-                            "vm": 1
-                        }
-                    },
                     "layershift": {
                         "c": {
                             "j": 1
@@ -14125,13 +14240,7 @@
                 },
                 "l": 1
             },
-            "nd": {
-                "c": {
-                    "cc": 1,
-                    "lib": 1
-                },
-                "l": 1
-            },
+            "nd": 1,
             "ne": {
                 "c": {
                     "cc": 1,
@@ -14305,9 +14414,34 @@
             },
             "wa": {
                 "c": {
+                    "aberdeen": 1,
+                    "bainbridge-isl": 1,
+                    "bellevue": 1,
+                    "bremerton": 1,
                     "cc": 1,
+                    "centralia": 1,
+                    "chehalis": 1,
+                    "forks": 1,
+                    "gig-harbor": 1,
+                    "hoquiam": 1,
                     "k12": 1,
-                    "lib": 1
+                    "keyport": 1,
+                    "kingston": 1,
+                    "lib": 1,
+                    "olympia": 1,
+                    "port-angeles": 1,
+                    "port-ludlow": 1,
+                    "port-orchard": 1,
+                    "port-townsend": 1,
+                    "poulsbo": 1,
+                    "redmond": 1,
+                    "renton": 1,
+                    "sea": 1,
+                    "seattle": 1,
+                    "sequim": 1,
+                    "shelton": 1,
+                    "silverdale": 1,
+                    "yarrow-point": 1
                 },
                 "l": 1
             },
@@ -14558,6 +14692,7 @@
     "watches": 1,
     "weather": 1,
     "weatherchannel": 1,
+    "web": 1,
     "webcam": 1,
     "weber": 1,
     "website": {
@@ -14594,7 +14729,8 @@
     "woodside": 1,
     "work": {
         "c": {
-            "imagine-proxy": 1
+            "imagine-proxy": 1,
+            "puter": 1
         },
         "l": 1
     },
@@ -14620,7 +14756,12 @@
         "l": 1
     },
     "wtc": 1,
-    "wtf": 1,
+    "wtf": {
+        "c": {
+            "ddns": 1
+        },
+        "l": 1
+    },
     "xbox": 1,
     "xerox": 1,
     "xihuan": 1,
@@ -14842,6 +14983,8 @@
         "c": {
             "botdash": 1,
             "caffeine": 1,
+            "exe": 1,
+            "opentunnel": 1,
             "telebit": {
                 "c": {
                     "*": 1
@@ -14922,8 +15065,14 @@
     "zone": {
         "c": {
             "lima": 1,
+            "prg1-zerops": 1,
             "stackit": 1,
             "triton": {
+                "c": {
+                    "*": 1
+                }
+            },
+            "zerops": {
                 "c": {
                     "*": 1
                 }
